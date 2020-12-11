@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs/cz">
+<head>
+	<meta charset="utf-8" />
+	<title>Video</title>
+	<link href="website/css/amp-website.css" rel="stylesheet" type="text/css" />
+
+	<!-- Acorn Media Player specific -->
+	<link href="acornmediaplayer/acornmediaplayer.base.css" rel="stylesheet" type="text/css">
+
+	<!-- Theme -->
+	<link href="acornmediaplayer/themes/access/acorn.access.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<h1>
+		KUBA
+		      <p>      Video</p>
+	</h1>
+
+	
+
+	<section>
+		<figure>
+			<video controls width="826" height="360" poster="website/images/tos-poster.jpg" preload="metadata" aria-describedby="full-descript" loop="" >
+				
+				<source type="video/mp4" src="pokus.mp4" />
+
+				<track src="subs/TOS-česky.srt" kind="subtitles" srclang="cz" label="Česky" />
+				<track src="subs/TOS-arabic.srt" kind="subtitles" srclang="ar" label="Arabic" />
+				<track src="subs/TOS-japanese.srt" kind="subtitles" srclang="jp" label="Japanese" />
+				<track src="subs/TOS-english.srt" kind="subtitles" srclang="en" label="English" />
+				<track src="subs/TOS-turkish.srt" kind="subtitles" srclang="tr" label="Turkish" />
+				<track src="subs/TOS-ukrainian.srt" kind="subtitles" srclang="uk" label="Ukrainian" />
+
+				
+			</video>
+			
+		</figure>
+	</section>
+
+	
+
+	<input type="file" name="video" autocomplete="on">
+	<br>
+	<input type="text" name="">
+
+</body>
+</html>
